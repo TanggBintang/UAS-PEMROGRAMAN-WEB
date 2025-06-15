@@ -1,4 +1,4 @@
-![Login dengan Github](https://github.com/user-attachments/assets/9e33a8e6-3f38-43fe-89fc-2f9322c8916c)![Login dengan Google](https://github.com/user-attachments/assets/41734ea3-fa51-4bc5-9796-3df9618098a2)# UAS Pemrograman Web News-App
+# UAS Pemrograman Web News-App
 
 Nama: Muhammad Ilham Bintang  
 NIM / Kelas: 23091397129 / 2023D  
