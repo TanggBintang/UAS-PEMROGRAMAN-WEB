@@ -1,4 +1,4 @@
-# Aplikasi Berita - Proyek Laravel
+![image](https://github.com/user-attachments/assets/ad9c8d38-4520-48dc-b094-54a179437886)# Aplikasi Berita - Proyek Laravel
 
 ![Screenshot Aplikasi Berita](assets/images/screenshot.png)
 
@@ -10,6 +10,8 @@ Aplikasi Berita ini adalah platform web berbasis Laravel yang menyediakan fitur 
 - Sistem autentikasi pengguna
 - Kontrol akses berbasis peran
 - Integrasi media sosial
+|![image](https://github.com/user-attachments/assets/e7b04078-ca89-4d66-8c5b-8ed367c1015f)
+
 
 ## Fitur Utama
 
