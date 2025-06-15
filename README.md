@@ -54,3 +54,60 @@ Menampilkan sambutan kepada pengguna dengan informasi jumlah artikel, jumlah kat
 Menampilkan daftar artikel terbaru secara dinamis. Setiap berita ditampilkan dalam bentuk kartu yang mencakup kategori, waktu publikasi, gambar, dan ringkasan berita. Pengguna dapat mengklik "Read Full Story" untuk membaca berita lengkap.
 ## Trending dan Kategori
 Bagian "Trending Stories" menampilkan berita yang paling banyak dibaca dan dibagikan. Di bawahnya terdapat bagian "Explore Categories" yang menyajikan daftar kategori seperti Politik, Ekonomi, Olahraga, dan Teknologi dengan jumlah artikel di setiap kategori. Pengguna dapat menjelajah berdasarkan minat mereka.
+
+## 2. Halaman Login
+
+![Login](https://github.com/user-attachments/assets/11c31eca-d65d-48a8-a9fd-7457527ae121)
+
+- **URL:** `http://127.0.0.1:8000/login`
+- **Judul Halaman:** Login - News App
+
+### Fitur
+- Form login:
+  - Input email/username
+  - Input password
+  - Checkbox "Remember Me"
+- Tombol login:
+  - `Sign In`
+  - `Sign in using Google`
+  - `Sign in using Github`
+  - `Sign in using Microsoft`
+- Link tambahan:
+  - `I forgot my password`
+  - `Register a new membership`
+
+### Desain
+- Background gradient ungu biru
+- Kotak login berada di tengah halaman dengan tampilan modern
+- Font konsisten dan tombol sosial media berwarna cerah
+- Logo aplikasi: **NewsApp** dengan gaya gradasi warna
+
+---
+
+## 3. Halaman Register
+
+![Register](https://github.com/user-attachments/assets/326430b0-b618-443c-9b0c-dccf042c512f)
+
+- **URL:** `http://127.0.0.1:8000/register`
+- **Judul Halaman:** Register - News App
+
+### Fitur
+- Form registrasi:
+  - Input full name
+  - Input email
+  - Input password
+  - Input retype password
+  - Checkbox "I agree to the terms"
+- Tombol register:
+  - `Register`
+  - `Sign up using Google`
+  - `Sign up using Github`
+  - `Sign up using Microsoft`
+- Link tambahan:
+  - `I already have a membership`
+
+### Desain
+- Warna dan tata letak konsisten dengan halaman login
+- Form berada dalam card dengan tampilan elegan
+- Tombol menggunakan gradasi warna dan ikon sesuai platform
+
