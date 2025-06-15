@@ -216,101 +216,86 @@ Aplikasi mendukung berbagai kategori berita seperti:
 
 Semua fitur ini menunjukkan bahwa News App memiliki sistem manajemen konten yang lengkap dan profesional untuk mengelola berita dari tahap draft hingga publikasi.
 
-# News Management System
+## 6. Level Akses Editor - Dashboard
+![Dashboard](https://github.com/user-attachments/assets/a780a16b-da83-4899-a296-767f3b570f97)
 
-## 6. Dashboard News Management (Level Editor)
+**Tujuan Halaman**: Memberikan overview statistik dan akses cepat untuk editor dalam mengelola konten berita.
 
-![Dashboard](https://github.com/user-attachments/assets/07915a80-5a1f-4c82-9323-bdeff1e8fbc8)
+### Fitur Utama:
+- **Statistik Real-time**: Menampilkan total berita, berita terpublikasi, draft, dan jumlah kategori
+- **Recent News**: Daftar berita terbaru dengan status publikasi
+- **Quick Navigation**: Akses cepat ke halaman manajemen berita
+- **Status Monitoring**: Monitoring real-time status publikasi artikel
 
-Dashboard utama untuk editor yang menampilkan daftar berita dengan berbagai status dan informasi lengkap.
+### Hak Akses Editor:
+- Melihat statistik keseluruhan sistem
+- Mengakses daftar berita untuk review
+- Melakukan approve/reject artikel
+- Mengelola status publikasi
 
-### Navigasi Utama
-Aplikasi menyediakan navigasi sidebar dengan menu:
-- Dashboard
-- News Management
-- Profile
+---
 
-### Kategori Berita
-Aplikasi mendukung berbagai kategori berita seperti:
-- Kesehatan
-- Teknologi
-- Olahraga
-- Ekonomi
-- Politik
+## 7. Manajemen Berita - Daftar Artikel
+![Manajemen news](https://github.com/user-attachments/assets/a8adef51-e00b-4acc-a623-e772946e5e8b)
 
-### Status Publikasi
-Setiap berita memiliki status yang dapat diidentifikasi:
-- Published (Hijau)
-- Rejected (Merah)
-- Draft (Kuning)
+**Tujuan Halaman**: Menampilkan semua artikel dalam sistem dengan kemampuan filtering dan kontrol publikasi untuk editor.
 
-### Informasi Artikel
-Setiap artikel menampilkan:
-- Thumbnail gambar
-- Judul berita
-- Deskripsi singkat
-- Nama penulis
-- Tanggal publikasi
-- Tombol aksi
+### Fitur Utama:
+- **Daftar Komprehensif**: Menampilkan semua artikel dengan informasi lengkap (judul, kategori, penulis, status, tanggal)
+- **Filter Status**: Melihat artikel berdasarkan status (Published, Draft, Rejected)
+- **Action Controls**: Tombol aksi untuk view, approve, dan reject
+- **Status Indicators**: Visual indicator untuk status publikasi (✅ Published, ❌ Rejected, 📝 Draft)
 
-## 7. Detail View Berita
-![halaman view berita](https://github.com/user-attachments/assets/ca593c9b-3239-4c76-a53d-56381499b156)
+### Fungsi Editor:
+- **View (👁️)**: Melihat detail artikel untuk review
+- **Approve (✅)**: Menyetujui dan mempublikasikan artikel
+- **Reject (❌)**: Menolak artikel dengan alasan
+- **Status Management**: Mengubah status artikel dari draft ke published/rejected
 
-Halaman detail untuk melihat dan mengelola artikel individual.
+---
 
-### Konten Artikel
-Menampilkan informasi lengkap artikel:
-- Judul: "Pemerintah Resmi Naikkan Subsidi Energi untuk Rakyat"
-- Kategori: Ekonomi
-- Penulis: MUHAMMAD ILHAM BINTANG
-- Tanggal: 15 Jun 2025
-- Status: Draft
+## 8. Detail Artikel - Sistem Review
+![fitur views](https://github.com/user-attachments/assets/f6e7c3c7-a23d-4deb-95ca-efd1b1d7fa3b)
 
-### Panel Aksi Editor
-Editor memiliki kontrol untuk:
-- Approve & Publish
-- Reject
-- Back to List
+**Tujuan Halaman**: Memberikan interface untuk editor melakukan review mendalam terhadap artikel sebelum publikasi.
 
-## 8. Tabel Manajemen Berita
-![manajemen berita](https://github.com/user-attachments/assets/426b8290-a06f-4a4b-9e14-ef8440de34ba)
+### Fitur Review:
+- **Preview Konten**: Menampilkan artikel lengkap dengan format publikasi
+- **Metadata Review**: Informasi penulis, kategori, dan tanggal
+- **Action Panel**: Panel kontrol untuk approve, reject, atau kembali ke daftar
+- **Draft Status**: Indikator status artikel saat ini
 
-Tampilan tabel komprehensif untuk manajemen berita massal.
+### Workflow Publikasi:
+1. **Review Content**: Editor mereview konten artikel
+2. **Decision Making**: Memutuskan approve atau reject
+3. **Status Update**: Sistem mengupdate status artikel
+4. **Notification**: Pemberitahuan ke penulis tentang keputusan
 
-### Kolom Tabel
-- Image
-- Title
-- Category
-- Author
-- Status
-- Created
-- Actions
+---
 
-### Fitur Manajemen
-- View artikel individual
-- Approve/Reject artikel
-- Bulk actions untuk multiple artikel
-- Filter berdasarkan status dan kategori
+## 9. Profil Editor - Manajemen Akun
+![profile](https://github.com/user-attachments/assets/9887aab0-a92d-4d32-9f75-f6586c7b618c)
 
-## 9. Profil Editor
-![Halaman Profile](https://github.com/user-attachments/assets/d3e1a899-45a9-4f76-bc4d-0db50bb6f5e1)
+**Tujuan Halaman**: Mengelola informasi profil dan pengaturan akun untuk user dengan level akses editor.
 
-Halaman pengaturan profil untuk editor.
+### Fitur Profil:
+- **Informasi Akun**: Menampilkan nama, email, dan role user
+- **Profile Update**: Form untuk mengupdate informasi pribadi
+- **Security Settings**: Pengaturan password dan keamanan akun
+- **Access Level Display**: Menampilkan level akses "Editor" dengan indikator visual
 
-### Informasi Profil
-- Foto profil
-- Nama: Editor User
-- Email: editor@editor.com
-- Role: Editor
-- Member since: 12 Jun 2025
+### Pengaturan Editor:
+- **Full Name**: Mengedit nama lengkap
+- **Email Address**: Update email untuk notifikasi sistem
+- **Profile Picture**: Upload/update foto profil
+- **Password Management**: Ubah password untuk keamanan akun
+- **Member Info**: Menampilkan informasi keanggotaan sejak bergabung
 
-### Pengaturan Akun
-Form untuk mengubah:
-- Full Name
-- Email Address
-- Profile Picture
-- Current Password
-- New Password
+### Batasan Level akses Editor:
+- Tidak dapat menambah/hapus user lain
+- Tidak dapat mengubah level akses user
+- Tidak dapat mengakses pengaturan sistem global
+- Fokus pada manajemen konten dan publikasi
 
 ## 10. Dashboard Utama (Level Akses Wartawan)
 ![Dashboard](https://github.com/user-attachments/assets/a2aa08b2-9dbf-4acd-9076-28790a26d2f0)
