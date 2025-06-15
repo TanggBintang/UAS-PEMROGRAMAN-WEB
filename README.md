@@ -405,11 +405,3 @@ Setelah berhasil membuat berita, sistem menampilkan:
 - Dapat diedit atau dihapus oleh penulis
 - Menunggu persetujuan untuk publikasi
 
----
-
-## Catatan Sistem
-- **Version**: 1.0.0
-- **Copyright**: © 2025 News App. All rights reserved.
-- **Login Level**: Wartawan (akses terbatas pada konten sendiri)
-- **User**: Dennis Ipon 7 (muhammadilham.23129@mhs.unesa.ac.id)
-
