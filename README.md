@@ -1,4 +1,4 @@
-# UAS Pemrograman Web News-App
+# DEMO UAS Pemrograman Web News-App
 
 Nama: Muhammad Ilham Bintang  
 NIM / Kelas: 23091397129 / 2023D  
