@@ -46,10 +46,11 @@ Berikut adalah tampilan antarmuka dari aplikasi News-App:
 
 ### 1. Beranda (Welcome Page)
 ![Beranda 1](https://github.com/user-attachments/assets/4ebb8413-97ea-46e2-bd89-4af8fd16ff17)
+![Beranda 2](https://github.com/user-attachments/assets/79576738-0781-4b95-9dfb-06f246645ebf)
+![Beranda 3](https://github.com/user-attachments/assets/4ba353c8-abb7-4ae0-8237-400eeccae655)
+
 Menampilkan sambutan kepada pengguna dengan informasi jumlah artikel, jumlah kategori berita, dan ketersediaan layanan berita 24/7. Terdapat tombol "Explore News" untuk langsung menuju berita terbaru. Tampilan ini menggunakan desain modern dengan elemen visual seperti gambar “Breaking News”.
-
-### 2. Halaman Berita Terbaru
+## Halaman Berita Terbaru
 Menampilkan daftar artikel terbaru secara dinamis. Setiap berita ditampilkan dalam bentuk kartu yang mencakup kategori, waktu publikasi, gambar, dan ringkasan berita. Pengguna dapat mengklik "Read Full Story" untuk membaca berita lengkap.
-
-### 3. Trending dan Kategori
+## Trending dan Kategori
 Bagian "Trending Stories" menampilkan berita yang paling banyak dibaca dan dibagikan. Di bawahnya terdapat bagian "Explore Categories" yang menyajikan daftar kategori seperti Politik, Ekonomi, Olahraga, dan Teknologi dengan jumlah artikel di setiap kategori. Pengguna dapat menjelajah berdasarkan minat mereka.
